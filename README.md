@@ -4,6 +4,12 @@ Pulls the latest COVID-19 data and provides a few Python functions to plot time-
 It automatically interfaces with a <a href="https://github.com/CSSEGISandData/COVID-19">repo of daily time-series data</a> maintained by the JHU CSSE</a>
 # Installation
 
+This module depends on a submodule. Thus, the easiest thing to do is clone it like so:
+
+`git clone --recursive https://github.com:nrhine1/covid-19-pyvis` <br>
+
+Then, install the requirements
+
 `pip3 install -r requirements.txt`
 
 Tested with Python 3.7.0 on MacOS. I recommend you use a virtualenv or create a conda env.
