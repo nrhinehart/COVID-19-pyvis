@@ -19,6 +19,8 @@ e.g.
 source covidpy/bin/activate; 
 pip install -r requirements.txt```
 
+# Note: the naming conventions of the raw data have changed over time. Thus, until they have been stable for awhile, I wouldn't recommend treating the results plotted herein as authoritative!
+
 # Usage
 See the [jupyter notebook](covid-19-analysis/notebooks/overview_plotting_example.ipynb) for a walkthrough.
 
